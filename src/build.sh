@@ -13,3 +13,6 @@ c++ -c ${i} -std=c++2c ${B2D_INC} ${FLTK_INC}
 done
 
 c++ *.o -o dice_roll ${B2D_LIB} ${FLTK_LIB} ${OPENGL_LIB}
+
+mkdir dice_roll.app
+mv dice_roll dice_roll.app

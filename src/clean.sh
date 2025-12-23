@@ -1,4 +1,4 @@
 #!/bin/sh -x
 
 rm *.o
-rm dice_roll
+rm -rf dice_roll.app
